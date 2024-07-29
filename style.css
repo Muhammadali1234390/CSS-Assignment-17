@@ -1,0 +1,297 @@
+body{
+    background-image: url("https://media.istockphoto.com/id/1264374994/photo/blank-tv-screen-in-modern-dark-interior-with-gray-sofa-in-darkness-mock-up-front-view-tv-in.jpg?s=2048x2048&w=is&k=20&c=VL7Hjl77veGYWlvYnAYrppVaOf9XbSCvZVW2EThh5Tw=");
+    background-repeat: no-repeat;
+    background-size:  1700px 800px;
+    font-family: 'Times New Roman', Times, serif;
+}  
+header{
+    background-color: rgba(0, 0, 0, 0.381);
+    display:flex;
+    border-bottom: 5px solid white;
+}
+svg{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+ul{
+    color:#ffffff;
+    display:flex;
+    margin-top:50px;
+    margin-bottom: 40px;
+}
+li {
+    list-style-type: none;
+    font-size: 22px;
+}
+li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
+    cursor: pointer;
+}
+li:active{
+    text-decoration-color: #b9b9b9;
+}
+.heading{
+    width:100%;
+    height:640px;
+    background-color: rgba(0, 0, 0, 0.381);
+}
+.heading .paragraph{
+    font-size:110px;
+    color:white;
+    margin-left:80px;
+}
+.heading > h1 > span{
+    color:rgb(195, 63, 63);
+}
+.heading > p{
+    color:white;
+    margin-left: 80px;
+}
+.left{
+    background-color: rgb(195, 63, 63);
+    border: none;
+    cursor: pointer;
+    margin-left: 80px;
+    padding: 15px 25px;
+    color:#fff;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: 4px solid rgb(195, 63, 63);
+}
+.left:active{
+    background-color: rgb(195, 63, 63);
+    border: 4px solid rgb(195, 63, 63);
+    cursor: pointer;
+    margin-left: 80px;
+    padding: 15px 25px;
+    color:#fff;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.left:hover{
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: none;
+}
+.right{
+    background-color: rgb(195, 63, 63);
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 15px 25px;
+    color:#fff;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: 4px solid rgb(195, 63, 63);
+}
+.right:hover{
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: none;
+}
+.next-content{
+    width:100%;
+    height:680px;
+    background-color: bisque;
+    display: flex;
+}
+.next-content img{
+    margin-left: 150px;
+    margin-top: 150px;
+    width: 600px;
+}
+.next-content span{
+    color: rgb(195, 63, 63);
+    font-size: 90px;
+}
+.next-content h1{
+    font-size: 90px;
+    margin-left:100px;
+    margin-top:150px;
+}
+.next-content p{
+    margin-left:100px;
+}
+.next-content button{
+    background-color: rgb(195, 63, 63);
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 15px 25px;
+    color:#fff;
+    background: rgb(195, 63, 63);
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: 4px solid rgb(195, 63, 63);
+    margin-left: 100px;
+}
+.next-content button:hover{
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: none;
+    color: black;
+}
+.places{
+    background-color: black;
+    color:white;
+    text-align: center;
+    display: flex;
+}
+.places h1{
+    color:rgb(195, 63, 63);
+    font-size:50px;
+}
+.dubai img{
+    width:500px;
+    margin-top: 4px;
+}
+.dubai{
+    width:520px;
+    height:680px;
+    background-color: #000000;
+    border: 7px solid white;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.dubai p{
+    font-size:18px
+}
+.places-text{
+    text-align: center;
+    background-color: black;
+}
+.places-text h1{
+    color: rgb(195, 63, 63)
+}
+.places-text p{
+    color:#fff;
+}
+
+.dubai button{
+    box-shadow: 2px 8px 10px rgb(246, 83, 83);
+    background-color: rgb(195, 63, 63);
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 15px 25px;
+    color:#fff;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: 4px solid rgb(195, 63, 63);
+}
+.dubai button:hover{
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: none;
+}
+.turkey{
+    width:520px;
+    height:680px;
+    background-color: #000000;
+    border: 7px solid white;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.turkey p{
+    font-size:18px
+}
+.turkey button{
+    box-shadow: 2px 8px 10px rgb(246, 83, 83);
+    background-color: rgb(195, 63, 63);
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 15px 25px;
+    color:#fff;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: 4px solid rgb(195, 63, 63);
+}
+.turkey button:hover{
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: none;
+}
+.turkey img{
+    width:500px;
+    height: 330px;
+    margin-top: 4px;
+}
+.qatar{
+    width:520px;
+    height:680px;
+    background-color: #000000;
+    border: 7px solid white;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.qatar p{
+    font-size:18px
+}
+.qatar button{
+    box-shadow: 2px 8px 10px rgb(246, 83, 83);
+    background-color: rgb(195, 63, 63);
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 15px 25px;
+    color:#fff;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: 4px solid rgb(195, 63, 63);
+}
+.qatar button:hover{
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: none;
+}
+.qatar img{
+    width:500px;
+    height: 330px;
+    margin-top: 4px;
+}
+.footer{
+    background-color: bisque;
+    display: flex;
+}
+.footer .top-countries{
+    margin-left:180px;
+    font-size:30px;
+    color: rgb(195, 63, 63);
+    font-weight: 600;
+}
+.footer .top-country-1{
+    margin-left:180px;
+    font-size:16px;
+    color: #000;
+    font-weight: 600;
+}
+.footer .top-country-2{
+    margin-left:180px;
+    font-size:16px;
+    color: #000;
+    font-weight: 600;
+}
+.footer .top-country-3{
+    margin-left:180px;
+    font-size:16px;
+    color: #000;
+    font-weight: 600;
+}
+.footer .top-country-4{
+    margin-left:180px;
+    font-size:16px;
+    color: #000;
+    font-weight: 600;
+}
+.footer .top-country-5{
+    margin-left:180px;
+    font-size:16px;
+    color: #000;
+    font-weight: 600;
+}
+.fa-fa-facebook {
+    font-size: 20px;
+}
